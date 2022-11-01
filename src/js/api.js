@@ -10,7 +10,7 @@ export const getMovies = (path, selector, text) => {
         const root = document.querySelector(selector);
   
         if(data.status_message && data.status_code) {
-          root.innerHTML = renderError({ status_code: data.status_code, status_message: data.status_message });
+          root.innerHTML += renderError({ status_code: data.status_code, status_message: data.status_message }, text);
         } else {
           root.innerHTML += renderMovies(data.results, text);
         }

@@ -1,12 +1,14 @@
 import {generateImgTag} from "./utils";
 
-export const renderError = ({ status_code, status_message }) => (`
-  <div class="container">
+export const renderError = ({ status_code, status_message }, text) => (`
+    <section>
+    <h2 class="section-title">${text}</h2>
     <div class="error">
-      <h2>Status code: ${status_code}</h2>
+      <h2>Something went wrong...can't render section!</h2>
+      <p>Status code: ${status_code}</p>
       <p>Status message: ${status_message}</p>
     </div>
-  </div>
+    </section>
 `);
 
 
