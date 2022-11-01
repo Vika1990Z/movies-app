@@ -3,13 +3,13 @@
     padding: $base-padding * 1.5;
     margin-bottom: $base-margin * 2;
     background: $primary_2;
-    box-shadow: $base-box-shadow;
+    box-shadow: $header-box-shadow;
     position: relative;
 
     h1 {
       text-shadow: $header-text-shadow;
       text-align: center;
-      color: white;
+      color: rgba(255, 255, 255, 0.823);
       font-size: $font-size-xxl;
     }
 

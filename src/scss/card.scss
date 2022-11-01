@@ -8,7 +8,12 @@
         display: block;
         margin: 0 auto;
         border-radius: $base-border-radius;
-        box-shadow: $base-box-shadow;
+        box-shadow: $card-box-shadow;
+        border: $base-border-thickness*2 solid rgba(255, 255, 255, 0.184);
+    }
+
+    img:hover {
+        box-shadow: $card-hovered-box-shadow;
         border: $base-border-thickness*2 solid rgba(255, 255, 255, 0.184);
     }
     .movie_title {
@@ -26,7 +31,7 @@
         background-color: $bage;
         border-radius: 50%;
         padding: $base-padding;
-        box-shadow: $base-box-shadow;
+        box-shadow: $bage-box-shadow;
         border: $base-border-thickness*2 solid rgba(255, 255, 255, 0.184);
         font-size: $font-size-sm;
         font-weight: 600;
