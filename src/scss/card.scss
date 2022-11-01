@@ -12,10 +12,12 @@
         border: $base-border-thickness*2 solid rgba(255, 255, 255, 0.184);
     }
     .movie_title {
-        font-weight: 600;
+        font-weight: 500;
         text-align: center;
         font-size: $font-size-sm;
         padding: $base-padding;
+        text-shadow: $header-text-shadow;
+        letter-spacing: 1px;
     }
     .bage {
         position: absolute;

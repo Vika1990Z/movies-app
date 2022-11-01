@@ -1,13 +1,17 @@
 .header {
     width: 100%;
-    padding: $base-padding * 3;
-    margin-bottom: $base-margin * 5;
-    text-align: center;
-    background: $primary_3;
+    padding: $base-padding * 1.5;
+    margin-bottom: $base-margin * 2;
+    background: $primary_2;
     box-shadow: $base-box-shadow;
-    color: white;
     position: relative;
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.546);
+
+    h1 {
+      text-shadow: $header-text-shadow;
+      text-align: center;
+      color: white;
+      font-size: $font-size-xxl;
+    }
 
     .search{
       background-color: $search;
@@ -17,10 +21,14 @@
       position: absolute;
       right: 10%;
       bottom: 10px;
-      color: rgb(0, 0, 0);
-      font-weight: 900;
-
-
+      color: rgba(255, 255, 255, 0.624);
+      font-weight: 700;
+      border-radius: $base-border-radius;
+      text-shadow: $header-text-shadow;
+    }
+    .search:hover{
+      background-color: $search_hovered;
+      text-shadow: $search-text-shadow;
     }
 
   }

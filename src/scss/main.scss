@@ -10,11 +10,16 @@ body {
 } 
 
 section {
+    display: block;
     background-color: $primary_4;
     padding: $base-padding * 1.5;
-    margin : $base-margin * 5;
+    margin-top: $base-margin * 10;
+    margin-bottom: $base-margin * 5;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: $base-border-radius;
 }
+
 .container-main {
     margin: 0 auto;
     padding: 0 50px;
@@ -36,6 +41,7 @@ section {
 
 .section-title {
     text-align: left;
-    text-shadow: 3px 2px 5px rgba(255, 254, 254, 0.88);
-    color: #1d2c37;
+    text-shadow: $section-text-shadow;
+    color: #0f171d;
+    font-size: $font-size-xl;
 }
