@@ -1,0 +1,10 @@
+@use 'sass:math';
+.footer {
+    width: 100%;
+    padding: $base-padding * 1.5;
+    margin-top: $base-margin * 1.5;
+    text-align: center;
+    background: $primary_3;
+    box-shadow: $base-box-shadow;
+    color: white;
+  }

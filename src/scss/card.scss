@@ -1,0 +1,34 @@
+.card {
+    margin: $base-margin;
+    width: 220px;
+    position: relative;
+
+
+    img {
+        display: block;
+        margin: 0 auto;
+        border-radius: $base-border-radius;
+        box-shadow: $base-box-shadow;
+        border: $base-border-thickness*2 solid rgba(255, 255, 255, 0.184);
+    }
+    .movie_title {
+        font-weight: 600;
+        text-align: center;
+        font-size: $font-size-sm;
+        padding: $base-padding;
+    }
+    .bage {
+        position: absolute;
+        top: -10px;
+        left: 0;
+        background-color: $bage;
+        border-radius: 50%;
+        padding: $base-padding;
+        box-shadow: $base-box-shadow;
+        border: $base-border-thickness*2 solid rgba(255, 255, 255, 0.184);
+        font-size: $font-size-sm;
+        font-weight: 600;
+    }
+
+}
+
