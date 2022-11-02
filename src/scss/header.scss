@@ -1,0 +1,34 @@
+.header {
+    width: 100%;
+    padding: $base-padding * 1.5;
+    margin-bottom: $base-margin * 2;
+    background: $primary_2;
+    box-shadow: $header-box-shadow;
+    position: relative;
+
+    h1 {
+      text-shadow: $header-text-shadow;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      font-size: $font-size-xxl;
+    }
+
+    .search{
+      background-color: $search;
+      padding: $base-padding * 1.5;
+      text-align: center;
+      width: 200px;
+      position: absolute;
+      right: 10%;
+      bottom: 10px;
+      color: rgba(255, 255, 255, 0.624);
+      font-weight: 700;
+      border-radius: $base-border-radius;
+      text-shadow: $header-text-shadow;
+    }
+    .search:hover{
+      background-color: $search_hovered;
+      text-shadow: $search-text-shadow;
+    }
+
+  }
