@@ -1,35 +1,30 @@
-# Movies App
+# Home Work 44. Movies app. Part 2.
 
 This repository contains the source code of the Movies App.
 
-## Installation
+To start use:
 
-Run `npm install`
+`mpm run serve`
 
-### Local overwrites
-
-In order to overwrite API endpoints copy the file `.env.example` to `.env` uncomment and update the environment variables. Restart the server.
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm run dev`
-
-Runs the app in the development mode.
-
-### `npm run build`
-
-Runs the app in the production mode.
-
-### `npm run watch`
-
-Runs the app in the watch mode.
-
-### `npm run serve`
-
-Runs the app in the serve mode.
 
 ### `The Movie Database API`
 
 [API Docs](https://developers.themoviedb.org/)
+
+![screen1](./screen2.png)
+
+![screen2](./screen1.png)
+
+
+
+Потрібно додати поле для пошуку фільмів у хедері. Після натискання на кнопку пошуку, відобразити результати пошуку на сторінці за аналогією як робили movieDetails.
+
+Що потрібно зробити:
+
+* Реалізувати функціонал пошуку фільмів     
+* Ендпоінт, який потрібно використовувати - Search Movies   
+* На сторінці результатів пошуку має бути можливість перейти на перегляд деталей
+фільму   
+* Після перезавантаження сторінки, результати мають відображатися, якщо є квері параметр    
+* Залити все на github у створений репозиторій. (хто хоче зробити pull request) 
+* При здачі завдання просто додати посилання на github  

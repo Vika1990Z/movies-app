@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+    padding: $base-padding * 1.5;
+    margin-bottom: $base-margin * 0.5;
+    box-shadow: $header-box-shadow;
+    position: relative;
+
+    h1 {
+      text-shadow: $search-text-shadow;
+      text-align: center;
+      color: $primary_6;
+      font-size: $font-size-xxl * 1.5;
+      margin: $base-margin;
+    }
+     
+    input {
+      background-color: $search;
+      padding: $base-padding * 1.5;
+      margin: $base-margin;
+      text-align: center;
+      width: 200px;
+      position: absolute;
+      right: 10%;
+      bottom: 10px;
+      font-weight: 700;
+      border-radius: $base-border-radius;
+      text-shadow: $header-text-shadow;
+    }
+
+    .input::placeholder {
+      color: $primary_3;
+  }
+
+    input:hover{
+      background-color: $search_hovered;
+      color: $primary_0;
+    }
+
+  }
