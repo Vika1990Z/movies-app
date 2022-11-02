@@ -1,3 +1,12 @@
 .error {
-    height: 90%;
+    height: 100%;
+    margin-bottom: $base-margin * 15;
+    margin-top: $base-margin * 15;
+
+    p {
+        font-weight: 600;
+        text-align: center;
+        padding: $base-padding;
+        margin: $base-margin;
+    }
 }

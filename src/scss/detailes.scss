@@ -1,0 +1,55 @@
+.grid {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: $base-margin * 2;
+    justify-items: center;
+}
+
+.movie-title {
+    text-align: center;
+    text-shadow: $header-text-shadow;
+    color: $primary_3;  
+    font-size: $font-size-xxl;
+    margin-bottom: $base-margin * 10;
+}
+
+.movie-detailes {
+    margin: $base-margin * 2;
+}
+
+img {
+    margin: $base-margin * 2;
+    border-radius: $base-border-radius;
+    box-shadow: $card-box-shadow;
+    border: $base-border-thickness*2 solid rgba(255, 255, 255, 0.184);
+}
+
+img:hover {
+    box-shadow: $card-hovered-box-shadow;
+    border: $base-border-thickness*2 solid rgba(255, 255, 255, 0.184);
+}  
+
+p {
+    text-align: justify;
+    font-size: $base-font-size;
+    letter-spacing: 1.2;
+    text-indent: 20px;
+    color: $primary_0;  
+    line-height: $base-font-size * 2;
+    
+}
+
+h3 {
+    text-align: left;
+    font-weight: 500;
+    margin-top: $base-margin * 3;
+
+    span {
+        font-size: $base-font-size;
+        letter-spacing: 1.2;
+        color: $primary_0;  
+        font-weight: 400;
+        margin-left: $base-margin;
+    }
+}

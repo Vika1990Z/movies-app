@@ -11,9 +11,9 @@ body {
 
 section {
     display: block;
-    background-color: $primary_4;
+    background-color: $primary_5;
     padding: $base-padding * 1.5;
-    margin-top: $base-margin * 10;
+    margin-top: $base-margin * 5;
     margin-bottom: $base-margin * 5;
     margin-left: auto;
     margin-right: auto;
@@ -41,7 +41,9 @@ section {
 
 .section-title {
     text-align: left;
-    text-shadow: $section-text-shadow;
-    color: #0f171d;
+    text-shadow: $header-text-shadow;
+    color: $primary_2;
     font-size: $font-size-xl;
+    word-spacing: $base-font-size * 0.8;
+    letter-spacing: $base-font-size * 0.3;
 }
