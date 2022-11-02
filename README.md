@@ -1,35 +1,22 @@
-# Movies App
+# Home Work 43. Movies app. Part 1.
 
 This repository contains the source code of the Movies App.
 
-## Installation
+To start use:
 
-Run `npm install`
+`mpm run serve`
 
-### Local overwrites
-
-In order to overwrite API endpoints copy the file `.env.example` to `.env` uncomment and update the environment variables. Restart the server.
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm run dev`
-
-Runs the app in the development mode.
-
-### `npm run build`
-
-Runs the app in the production mode.
-
-### `npm run watch`
-
-Runs the app in the watch mode.
-
-### `npm run serve`
-
-Runs the app in the serve mode.
 
 ### `The Movie Database API`
 
 [API Docs](https://developers.themoviedb.org/)
+
+![screen](./screen.png)
+
+
+<!-- Створити репозиторій на github
+Зареєструватися на themoviedb
+Наслідуючи інструкції розгорнути у себе локально проект movies-app
+Відобразити на сторінці дані із трьох запитів: Get Popular, Get Top Rated, Get Upcoming
+Залити все на github у створений репозиторій. (*хто хоче зробити pull request)
+При здачі завдання просто додати посилання на github -->
